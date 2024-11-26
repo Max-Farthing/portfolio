@@ -3,6 +3,6 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <Typography variant='h2'>Projects</Typography>
+    <Typography variant='h2' sx={{ justifySelf: 'center'}}>Projects</Typography>
   )
 }

@@ -4,7 +4,7 @@ import React from 'react'
 export default function About() {
     return (
         <Box>
-            <Typography variant='h2'>About</Typography>
+            <Typography variant='h2' sx={{ justifySelf: 'center'}}>About</Typography>
             <Typography>
                 Hi, Im Max Farthing, a passionate Full-Stack Developer with a knack for creating functional 
                 and visually engaging web applications. I specialize in building seamless user experiences from front-end design to back-end functionality, 

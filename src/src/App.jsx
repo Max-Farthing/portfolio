@@ -1,4 +1,4 @@
-import { Container, Grid2 } from '@mui/material'
+import { Container } from '@mui/material'
 import Box from '@mui/material/Box'
 import Intro from './components/Intro'
 import About from './components/About'
@@ -10,17 +10,21 @@ function App() {
   return (
     <Box>
       <Container sx={{}}>
-        <Grid2 container spacing={2}>
-          <Grid2 size={5}>
-            <Intro />
-          </Grid2>
-          <Grid2 size={7}>
-            <About />
-            <Skills />
-            <Experience />
-            <Projects />
-          </Grid2>
-        </Grid2>
+        <Box sx={{ m: 20}}>
+          <Intro />
+        </Box>
+        <Box sx={{ m: 20}}>
+          <About />
+        </Box>
+        <Box sx={{ m: 20}}>
+          <Skills />
+        </Box>
+        <Box sx={{ m: 20}}>
+          <Experience />
+        </Box>
+        <Box sx={{ m: 20}}>
+          <Projects />
+        </Box>
       </Container>
     </Box>
   )
