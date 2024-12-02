@@ -10,19 +10,19 @@ function App() {
   return (
     <Box>
       <Container sx={{}}>
-        <Box sx={{ m: 20}}>
+        <Box sx={{ mt: 20}}>
           <Intro />
         </Box>
-        <Box sx={{ m: 20}}>
-          <About />
-        </Box>
-        <Box sx={{ m: 20}}>
+        <Box sx={{ mt: 20}}>
           <Skills />
         </Box>
-        <Box sx={{ m: 20}}>
+        <Box sx={{ mt: 20}}>
+          <About />
+        </Box>
+        <Box sx={{ mt: 20}}>
           <Experience />
         </Box>
-        <Box sx={{ m: 20}}>
+        <Box sx={{ mt: 20}}>
           <Projects />
         </Box>
       </Container>
