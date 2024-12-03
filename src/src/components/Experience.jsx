@@ -1,11 +1,22 @@
-import { Typography } from '@mui/material'
+import { Box, Grid2, Typography } from '@mui/material'
 import React from 'react'
 
 export default function Experience() {
     return (
-        <>
-            <Typography variant='h2' sx={{ justifySelf: 'center'}}>Experience</Typography>
-            <Typography>View Resume</Typography>
-        </>
+        <Box>
+            <Typography variant='h2' sx={{ justifySelf: 'center' }}>Experience</Typography>
+            <Box sx={{ display: 'flex', justifyContent: 'space-evenly'}}>
+                <Box>
+                    <Typography variant='p'>Jan 2025 - Present</Typography>                    
+                </Box>
+                <Box sx={{ display: 'flex', flexDirection: 'column'}}>
+                    <Typography variant='h6'>Associate Full-Stack Engineer @ Fidelity</Typography>
+                    <Typography variant='p'>Responsible for maintaingin tasks adn doing this and that</Typography>
+                    <Typography variant='p'>Responsible for maintaingin tasks adn doing this and that</Typography>
+                    <Typography variant='p'>Responsible for maintaingin tasks adn doing this and that</Typography>
+                </Box>
+            </Box>
+            <Typography sx={{ justifySelf: 'center', mt: 5}}>View Resume</Typography>
+        </Box>
     )
 }
