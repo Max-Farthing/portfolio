@@ -22,7 +22,7 @@ function App() {
         <Box sx={{ mt: 20}}>
           <Experience />
         </Box>
-        <Box sx={{ mt: 20}}>
+        <Box sx={{ my: 20}}>
           <Projects />
         </Box>
       </Container>

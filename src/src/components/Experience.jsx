@@ -5,7 +5,7 @@ export default function Experience() {
     return (
         <Box>
             <Typography variant='h2' sx={{ justifySelf: 'center' }}>Experience</Typography>
-            <Box sx={{ display: 'flex', justifyContent: 'space-evenly'}}>
+            <Box sx={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}>
                 <Box>
                     <Typography variant='p'>Jan 2025 - Present</Typography>                    
                 </Box>
@@ -16,7 +16,6 @@ export default function Experience() {
                     <Typography variant='p'>Responsible for maintaingin tasks adn doing this and that</Typography>
                 </Box>
             </Box>
-            <Typography sx={{ justifySelf: 'center', mt: 5}}>View Resume</Typography>
         </Box>
     )
 }
